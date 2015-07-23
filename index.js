@@ -1,6 +1,8 @@
 
 function randomRange(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
+    return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-console.log(randomRange(1, 20));
+for (var i = 0; i < 10; i++) {
+    console.log(randomRange(1, 20));
+}
