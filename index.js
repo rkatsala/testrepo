@@ -1,3 +1,6 @@
-/**
- * Created by User on 23.07.2015.
- */
+
+function randomRange(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+console.log(randomRange(1, 20));
